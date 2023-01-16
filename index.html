@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    ePortfolio
+  </title>
+
+  <meta name="description" content="20 ans">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="MASSON Louis, HTML, CSS,Tailwind, Java, JavaScript, SQL, PLSQL, Méthodes Agiles" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Colaboration</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Moi</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>MASSON Louis</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Etudiant Paris Cité 2ème année</p>
+        <a href="#contact" class="btn btn--pink">Me Contacter</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Mes Projets</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Projet Web</h3>
+              <p>
+                Projet mis en ligne qui permet de trouver des restaurants proche du lieu indiqué dans un rayon (en km)<br>
+                Une fois avoir crée un compte et que l'utilisateur est connecté, il peut ajouter un commentaire et une note à un restaurant
+              </p>
+              <ul class="work__list">
+                <a class="underline">Compétences acquises:</a>
+                <li>HTML</li>
+                <li>Tailwind CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://pj-web-pb.alwaysdata.net/index.html" target="_blank" class="link__text">
+                  OuManger? <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/LaCho7/OuManger" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/oumanger.PNG" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Projet Hex</h3>
+              <p>
+                Projet Java qui consite simplement au jeu Hex, il peut être joué entre deux joueurs, deux IA, ou un joueur et une IA.
+              </p>
+              <ul class="work__list">
+                <a class="underline">Compétences acquises:</a>
+                <li>Java</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/Ali-Thi/Hex-Ilyas-Louis-Ali-201-202" class="link__text">
+                  Lien Github  <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Ali-Thi/Hex-Ilyas-Louis-Ali-201-202">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/hex.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Refonte de site</h3>
+              <p>
+                Projet d'amélioration de site web. Je suis partie d'un site d'une aglomération qui existe : beauvaisis<br>
+                <a href="https://beauvaisis.fr/" class="link__text">
+                Site de bauvaisis <span>&rarr;</span>
+                </a>
+                <br><br>
+                J'ai du donc faire la conception, la maquette et trouver comment améliorer ce site web
+              </p>
+              <ul class="work__list">
+                <a class="underline">Compétences acquises:</a>
+                <li>Bootstrap</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL (ACCES)</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/Ali-Thi/SAE_SITE_WEB" class="link__text">
+                  Lien Github <span>&rarr;</span>
+                </a>
+                <a>
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+              </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/beauvaisis.PNG" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Compétences ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Compétences</h2>
+        <div class="client__logos">
+          <img src="./images/htmlcss.webp" class="client__logo" alt="Compétence 1" />
+          <img src="./images/js.webp" class="client__logo" alt="Compétence 2" />
+          <img src="./images/tailwind.webp" class="client__logo" alt="Compétence 3" />
+          <img src="./images/java.webp" class="client__logo" alt="Compétence 4" />
+          <img src="./images/sql.webp" class="client__logo" alt="Compétence 5" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>Par Rapport à Moi</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Etudiant en Informatique, fait du piano, des echecs et joue aux jeux vidéos.<br>
+              Mes Compétences : HTML, CSS, JavaScript, Java, SQL, PLSQL <br>
+              Vous trouverez ci dessous mon CV
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">Mon CV</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="images/MassonLouis.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Me Contacter</h2>
+      <div class="contact__info">
+        <p>
+          Vous trouverez ci-dessous mon adresse mail.<br>
+          Je vous répondrai dans les meilleurs délais.
+        </p>
+        <a href="mailto:you@example.com" class="btn">louisn.masson@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/LaCho7/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/louis-masson-453a5825b/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2023 - Masson Louis
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
