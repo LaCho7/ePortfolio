@@ -505,6 +505,10 @@ body:not(.user-is-tabbing) a:focus {
     text-decoration: underline;
 }
 
+.justify{
+    text-justify: auto;
+}
+
 /* --------------------------------------- */
 /* ----- Compétences ----- */
 /* --------------------------------------- */
