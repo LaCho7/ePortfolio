@@ -506,7 +506,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .justify{
-    text-justify: auto;
+    text-align: justify;
 }
 
 /* --------------------------------------- */
